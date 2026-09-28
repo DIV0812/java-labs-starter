@@ -10,14 +10,17 @@ class CourseToolkitTest {
     @Test
     void returnsTrueForEvenNumber() {
         boolean result = CourseToolkit.isEven(8);
-
         assertTrue(result);
     }
 
     @Test
     void returnsFalseForOddNumber() {
         boolean result = CourseToolkit.isEven(7);
-
         assertFalse(result);
+    }
+
+    @Test
+    void returnsTrueForZero() {
+        assertTrue(CourseToolkit.isEven(0));
     }
 }
