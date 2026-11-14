@@ -10,7 +10,7 @@ public final class ProjectTask {
     private final String title;
     private final String category;
     private final int estimatedHours;
-    private final TaskStatus status;
+    private TaskStatus status;
 
     public ProjectTask(String id, String title, String category,
                        int estimatedHours, TaskStatus status) {

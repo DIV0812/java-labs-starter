@@ -1,9 +1,6 @@
-package edu.course.lab07;      // пакет модуля lab07
+package edu.course.lab07;
 
-/**
- * Статус задачи.
- */
-public enum TaskStatus {      // enum — фиксированный набор
+public enum TaskStatus {
     READY,
     IN_PROGRESS,
     DONE,
